@@ -78,7 +78,7 @@ function corrigirQuiz() {
 
     // Pergunta 8
     const p8 = document.getElementById("p8").value.trim().toLowerCase();
-    if (p8 === "javascript") {
+    if (p8 === "java") {
         pontuacao++;
     } else {
         respostasErradas.push("Pergunta 8");
